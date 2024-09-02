@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = "<b>💠 Assalomu Alaykum! \n</a>Bot Orqali o'zingiz istagan eng sara filmlarni topishingiz mumkin!</b>.
+    START_TXT = "<b>💠 Assalomu Alaykum! \n</a>Bot Orqali o'zingiz istagan eng sara filmlarni topishingiz mumkin!</b>
 
     HELP_TXT = """<b>O'zingizga kerakli filmni yuklab olish uchun botga uning nomini yozing.\n
     Yoki bo'lmasa Tarjima Kinolar kanalimizga kirib filmlarni izlab topishingiz mumkin.{}\n
