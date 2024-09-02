@@ -2,17 +2,17 @@ class script(object):
     START_TXT = "<b>💠 Assalomu Alaykum! \n</a>Bot Orqali o'zingiz istagan eng sara filmlarni topishingiz mumkin!</b>"
 
     HELP_TXT = """<b>O'zingizga kerakli filmni yuklab olish uchun botga uning nomini yozing.\n
-    Yoki bo'lmasa Tarjima Kinolar kanalimizga kirib filmlarni izlab topishingiz mumkin.{}\n
+Yoki bo'lmasa Tarjima Kinolar kanalimizga kirib filmlarni izlab topishingiz mumkin.
 
 🔗 @Tarjima_Kinolar_Seriallar_Uzmovi 🔗</b>"""
 
-    ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/AnimaxRobot><b>Anime Bot</b></a>\n
-👑 Oᴡɴᴇʀ : <a href=https://t.me/Soylbjonov><b>🏆 Animax 🏆</b></a>\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Ani_maxUz><b>⚡ VJ Bots ⚡</b></a>\n
-📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
-🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
+    ABOUT_TXT = """<b><i>🤖 BOT : <a href=https://t.me/Tarjima_Filmlar_uz_robot><b>Tarjima Kinolar</b></a>\n
+👑 Ega : <a href=https://t.me/Sultan_7010><b>EGA</b></a>\n
+📢 Tarjima Kinolar : <a href=https://t.me/Tarjima_Kinolar_Seriallar_Uzmovi><b>Tarjima Kinolar</b></a>\n
+📝 Bot tili : ᴘʏʀᴏɢʀᴀᴍ\n
+📚 Framework : ᴘʏᴛʜᴏɴ 3\n
+📡 Host : ʜᴇʀᴏᴋᴜ\n
+🌟 Version : ᴠ 4.0\n</b></i>"""
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 ✅ - This Bot Is An Private Project
