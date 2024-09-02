@@ -21,7 +21,7 @@ disabled_group=filters.create(disabled_chat)
 @Client.on_message(filters.private & banned_user & filters.incoming)
 async def ban_reply(bot, message):
     ban = await db.get_ban_status(message.from_user.id)
-    await message.reply(f'🛑Uzr Siz Ban Oldingiz \n🛑Sababi: {ban["ban_reason"]}')
+    await message.reply(f'🛑 Uzr siz ban oldingiz \nSababi: {ban["ban_reason"]}')
 
 @Client.on_message(filters.group & disabled_group & filters.incoming)
 async def grp_bd(bot, message):
@@ -31,7 +31,7 @@ async def grp_bd(bot, message):
     reply_markup=InlineKeyboardMarkup(buttons)
     vazha = await db.get_chat(message.chat.id)
     k = await message.reply(
-        text=f"🛑 CHATDA KERAKLI RUXSAT YO'Q 🐞\n\nAdminlar Ushbu Chatda Ishlashimni Taqiqlagan! Agar xatolik deb bilsangiz gruhda adminlarga yozin. . .\nSababi : <code>{vazha['reason']}</code>.",
+        text=f"🛑 CHATDA KERAKLI RUXSAT YO'Q 🐞\n\nAdminlar ushbu chatda ishlashimni taqiqlagan! Agar xatolik deb bilsangiz gruhda adminlarga yozin. . .\nSababi : <code>{vazha['reason']}</code>.",
         reply_markup=reply_markup)
     try:
         await k.pin()
