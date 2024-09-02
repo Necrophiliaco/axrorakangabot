@@ -42,15 +42,15 @@ async def save_group(bot, message):
                 InlineKeyboardButton('📣 ᴀsᴏsɪʏ ᴋᴀɴᴀʟ 📣', url='https://t.me/ani_maxuz')
             ],
             [
-                InlineKeyboardButton('♠️ Guruh ♠️', url='https://t.me/animaxuz_chat'),
+                InlineKeyboardButton('◈ Guruh ◈', url='https://t.me/animaxuz_chat'),
             ],
             [
-                InlineKeyboardButton('🎗️ Ega 🎗️',url='https://t.me/Soylbjonov')
+                InlineKeyboardButton('▣ Ega ▣',url='https://t.me/Soylbjonov')
             ]
             ]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thank you For Adding Me In {message.chat.title} ❣️\n\nSavol va Maslahatlar Bo'lsa bemalol murojaat qilsangiz bo'ladi!</b>",
+            text=f"<b>{message.chat.title} ga qo'shganinggiz uchun rahmat! ❣️\n\nSavol va Maslahatlar Bo'lsa bemalol murojaat qilsangiz bo'ladi!</b>",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
@@ -63,7 +63,7 @@ async def save_group(bot, message):
                         pass
                 temp.MELCOW['welcome'] = await message.reply_photo(
                 photo="https://telegra.ph/file/f5e95f16ad290120d20c0.jpg",                                               
-                                                 caption=f"<b>ʜᴇʏ, {u.mention} 👋🏻\n𝙶𝚄𝚁𝚄𝙷𝙶𝙰 𝚇𝚄𝚂𝙷 𝙺𝙴𝙻𝙸𝙱𝚂𝙸𝚉! {message.chat.title}\n\nsɪᴢ ʙᴜ ɢᴜʀᴜʜ ᴠᴀ ʙᴏᴛ ᴏʀǫᴀʟɪ ᴏ'ᴢɪɴɢɪᴢ ɪsᴛᴀɢᴀɴ ᴀɴɪᴍᴇʟᴀʀɴɪ ᴛᴏᴘᴀ ᴏʟᴀsɪᴢ!. ᴇɴᴊᴏʏ😉.\n\n<b>┏≫ ɢᴜʀᴜʜ ǫᴏɪᴅᴀʟᴀʀɪɢᴀ ᴀᴍᴀʟ ǫɪʟɪɴɢ!</b>\n┣ <b>ᴀsᴏsɪʏ ᴋᴀɴᴀʟ ›› @VJ_Bots</b></code>\n<b>┗≫ ɢᴜʀᴜʜ ǫᴏɪᴅᴀʟᴀʀɪɢᴀ ᴀᴍᴀʟ ǫɪʟɪɴɢ!</b>",
+                                                 caption=f"<b>ʜᴇʏ, {u.mention} 👋🏻\n𝙶𝚄𝚁𝚄𝙷𝙶𝙰 𝚇𝚄𝚂𝙷 𝙺𝙴𝙻𝙸𝙱𝚂𝙸𝚉! {message.chat.title}\n\nsɪᴢ ʙᴜ ɢᴜʀᴜʜ ᴠᴀ ʙᴏᴛ ᴏʀǫᴀʟɪ ᴏ'ᴢɪɴɢɪᴢ ɪsᴛᴀɢᴀɴ ᴋɪɴᴏʟᴀʀɴɪ ᴛᴏᴘᴀ ᴏʟᴀsɪᴢ!. ᴇɴᴊᴏʏ😉.\n\n<b>┏≫ ɢᴜʀᴜʜ ǫᴏɪᴅᴀʟᴀʀɪɢᴀ ᴀᴍᴀʟ ǫɪʟɪɴɢ!</b>\n┣ <b>ᴀsᴏsɪʏ ᴋᴀɴᴀʟ ›› @VJ_Bots</b></code>\n<b>┗≫ ɢᴜʀᴜʜ ǫᴏɪᴅᴀʟᴀʀɪɢᴀ ᴀᴍᴀʟ ǫɪʟɪɴɢ!</b>",
                                                  reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🍿 ᴀsᴏsɪʏ ᴋᴀɴᴀʟ 🍿', url='http://t.me/ANI_MAXUZ') ] ] )
                 )
 
@@ -79,7 +79,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('Yordam uchun', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -118,7 +118,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('Yordam uchun', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
