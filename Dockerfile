@@ -1,12 +1,16 @@
 FROM python:3.8-slim-buster
 
-RUN apt update && apt upgrade -y
-RUN apt install git -y
-COPY requirements.txt /requirements.txt
+# Update and install any necessary packages
+RUN apt update && apt upgrade -y && apt install git -y
 
-RUN cd /
-RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /Advance-Auto-Filter
+# Set the working directory
 WORKDIR /Advance-Auto-Filter
-COPY start.sh /start.sh
-CMD ["/bin/bash", "/start.sh"]
+
+# Copy your bot files into the container
+COPY . .
+
+# Install dependencies
+RUN pip3 install -U pip && pip3 install -U -r requirements.txt
+
+# Command to start the bot
+CMD ["python3", "bot.py"]
