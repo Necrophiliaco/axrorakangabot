@@ -26,10 +26,10 @@ async def start(client, message):
                 InlineKeyboardButton('📣 ᴀsᴏsɪʏ ᴋᴀɴᴀʟ 📣', url='https://t.me/ani_maxuz')
             ],
             [
-                InlineKeyboardButton('♠️ Guruh ♠️', url='https://t.me/animaxuz_chat'),
+                InlineKeyboardButton('◈ Guruh ◈', url='https://t.me/animaxuz_chat'),
             ],
             [
-                InlineKeyboardButton('🎗️ Ega 🎗️',url='https://t.me/Soylbjonov')
+                InlineKeyboardButton('▣ Ega ▣',url='https://t.me/Soylbjonov')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -45,18 +45,18 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton("➕ Guruhga Qo'shish --> ➕",
+            InlineKeyboardButton("Guruhga qo'shish ⋙",
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🔍 Asosiy Guruh 🔍', url='https://t.me/animaxuz_chat'),
+                'Tarjima kinolar', url='https://t.me/animaxuz_chat'),
             InlineKeyboardButton(
-                '🤖 Asosiy Kanal 🤖', url='https://t.me/Ani_maxUz')
+                'Asosiy kanal', url='https://t.me/Ani_maxUz')
         ], [
-            InlineKeyboardButton('📚 𝚈𝙾𝚁𝙳𝙰𝙼 📚', callback_data='help'),
-            InlineKeyboardButton('🌐 𝙷𝙰𝚀𝙸𝙳𝙰 🌐', callback_data='about')
+            InlineKeyboardButton('📚 Yordam', callback_data='help'),
+            InlineKeyboardButton('🌐 Bot haqida', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Reklama Uchun 🔗',
+            InlineKeyboardButton('🔗 Reklama uchun',
                                  url=f'https://t.me/Soylbjonov')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -90,25 +90,25 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tekshirish", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Siz belgilangan kanalga obuna bo'lmagansiz!\n\nIltimos '🍿Kanalga Qo'shilish🍿' tugmasi orqali kanalga obuna bo'ling va '🔄 Tekshirish' tugmasini bosing!\n\nKanalga obuna bo'lmaguningizcha bot ishlamaydi!**",
+            text="**Siz belgilangan kanalga obuna bo'lmagansiz!\n\nIltimos '❆ Kanalga qo'shilish ❆' tugmasi orqali kanalga obuna bo'ling va '🔄 Tekshirish' tugmasini bosing!\n\nKanalga obuna bo'lmaguningizcha bot ishlamaydi!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton("➕ Guruhga Qo'shish --> ➕",
+            InlineKeyboardButton("Guruhga qo'shish ⋙",
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🏆 Asosiy Guruh 🏆', url='https://t.me/animaxuz_chat'),
+                'Tarjima kinolar', url='https://t.me/animaxuz_chat'),
             InlineKeyboardButton(
-                '📣 Asosiy Kanal 📣', url='https://t.me/ani_maxuz')
+                'Asosiy kanal ', url='https://t.me/ani_maxuz')
         ], [
-            InlineKeyboardButton('📚 𝚈𝙾𝚁𝙳𝙰𝙼 📚', callback_data='help'),
-            InlineKeyboardButton('🌐 𝙷𝙰𝚀𝙸𝙳𝙰 🌐', callback_data='about')
+            InlineKeyboardButton('📚 Yordam', callback_data='help'),
+            InlineKeyboardButton('🌐 Bot haqida', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Reklama Uchun 🔗',
+            InlineKeyboardButton('🔗 Reklama uchun',
                                  url=f'https://t.me/soylbjonov')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -159,10 +159,10 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                         [InlineKeyboardButton('⚡ Asosiy Guruh ⚡', url='https://t.me/animaxuz_chat'),
-                          InlineKeyboardButton('🔗 Asosiy Kanal 🔗', url='https://t.me/ani_maxuz')
+                         [InlineKeyboardButton('⚡ Tarjima kinolar', url='https://t.me/animaxuz_chat'),
+                          InlineKeyboardButton('🔗 Asosiy kanal', url='https://t.me/ani_maxuz')
                        ],[
-                          InlineKeyboardButton("📣 Ega 📣", url="t.me/soylbjonov")
+                          InlineKeyboardButton("📣 Ega", url="t.me/soylbjonov")
                          ]
                         ]
                     )
@@ -177,10 +177,10 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                         [InlineKeyboardButton('⚡ Asosiy Guruh ⚡', url='https://t.me/animaxuz_chat'),
-                          InlineKeyboardButton('🔗 Asosiy Kanal 🔗', url='https://t.me/ani_maxuz')
+                         [InlineKeyboardButton('⚡ Tarjima kinolar', url='https://t.me/animaxuz_chat'),
+                          InlineKeyboardButton('🔗 Asosiy kanal', url='https://t.me/ani_maxuz')
                        ],[
-                          InlineKeyboardButton("📣 Ega 📣", url="t.me/soylbjonov")
+                          InlineKeyboardButton("📣 Ega", url="t.me/soylbjonov")
                          ]
                         ]
                     )
@@ -248,10 +248,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                          [
-                          InlineKeyboardButton('⚡ Asosiy Guruh ⚡', url='https://t.me/animaxuz_chat'),
-                          InlineKeyboardButton('🔗 Asosiy Kanal 🔗', url='https://t.me/ani_maxuz')
+                          InlineKeyboardButton('⚡ Tarjima kinolar', url='https://t.me/animaxuz_chat'),
+                          InlineKeyboardButton('🔗 Asosiy kanal', url='https://t.me/ani_maxuz')
                        ],[
-                          InlineKeyboardButton("📣 Ega 📣", url="t.me/soylbjonov")
+                          InlineKeyboardButton("📣 Ega", url="t.me/soylbjonov")
                          ]
                         ]
                     )
@@ -291,10 +291,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                          [
-                          InlineKeyboardButton('⚡ Asosiy Guruh ⚡', url='https://t.me/animaxuz_chat'),
-                          InlineKeyboardButton('🔗 Asosiy Kanal 🔗', url='https://t.me/ani_maxUz')
+                          InlineKeyboardButton('⚡ Tarjima kinolar', url='https://t.me/animaxuz_chat'),
+                          InlineKeyboardButton('🔗 Asosiy kanl', url='https://t.me/ani_maxUz')
                        ],[
-                          InlineKeyboardButton("📣 Ega 📣", url="t.me/soylbjonov")
+                          InlineKeyboardButton("📣 Ega", url="t.me/soylbjonov")
                          ]
                         ]
                     )
