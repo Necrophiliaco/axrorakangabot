@@ -5,6 +5,7 @@ import ast
 import math
 import random
 
+from pyrogram import Client
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script
 import pyrogram
@@ -36,6 +37,22 @@ logger.setLevel(logging.ERROR)
 BUTTONS = {}
 SPELL_CHECK = {}
 
+async def safe_edit_message_media(client, chat_id, message_id, new_media):
+    # Fetch the current message
+    current_message = await client.get_messages(chat_id, message_id)
+    
+    # Check if the current media is different from the new media
+    if current_message.media != new_media:
+        # Edit the message media
+        await client.edit_message_media(
+            chat_id=chat_id,
+            message_id=message_id,
+            media=new_media
+        )
+
+# Example usage
+async def cb_handler(client, chat_id, message_id, new_media):
+    await safe_edit_message_media(client, chat_id, message_id, new_media)
 
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client, message):
