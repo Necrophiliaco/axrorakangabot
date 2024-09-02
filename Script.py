@@ -1,11 +1,10 @@
 class script(object):
-    START_TXT = "<b>💠 Assalomu Alaykum! /n</a>Bot Orqali o'zingiz istagan eng sara filmlarni topishingiz mumkin!</b>.
+    START_TXT = "<b>💠 Assalomu Alaykum! \n</a>Bot Orqali o'zingiz istagan eng sara filmlarni topishingiz mumkin!</b>.
 
-    HELP_TXT = """<b>O'zingizga kerakli filmni yuklab olish uchun botga uning nomini yozing.
-    Yoki bo'lmasa Tarjima Kinolar kanalimizga kirib filmlarni izlab topishingiz mumkin.{}
-Kinolar uchun ajoyib Bot!
+    HELP_TXT = """<b>O'zingizga kerakli filmni yuklab olish uchun botga uning nomini yozing.\n
+    Yoki bo'lmasa Tarjima Kinolar kanalimizga kirib filmlarni izlab topishingiz mumkin.{}\n
 
-🔗 Dasturchi @LappIand 🔗</b>"""
+🔗 @Tarjima_Kinolar_Seriallar_Uzmovi 🔗</b>"""
 
     ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/AnimaxRobot><b>Anime Bot</b></a>\n
 👑 Oᴡɴᴇʀ : <a href=https://t.me/Soylbjonov><b>🏆 Animax 🏆</b></a>\n
