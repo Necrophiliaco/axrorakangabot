@@ -1,8 +1,9 @@
 class script(object):
-    START_TXT = "<b>🧤 Assalomu Alaykum! {}, Bu bot <a href=https://telegram.me/{}>{}</a> Bu Bot Orqali o'zingiz istagan animelarni topishingiz mumkin!</b> 😇. \n⚡ Ha Aytgancha Bot guruhda ham ishlaydi! ⚡"
+    START_TXT = "<b>💠 Assalomu Alaykum! /n</a>Bot Orqali o'zingiz istagan eng sara filmlarni topishingiz mumkin!</b>.
 
-    HELP_TXT = """<b>Hᴇʏ {}
-Animelar uchun ajoyib Bot!
+    HELP_TXT = """<b>O'zingizga kerakli filmni yuklab olish uchun botga uning nomini yozing.
+    Yoki bo'lmasa Tarjima Kinolar kanalimizga kirib filmlarni izlab topishingiz mumkin.{}
+Kinolar uchun ajoyib Bot!
 
 🔗 Dasturchi @LappIand 🔗</b>"""
 
