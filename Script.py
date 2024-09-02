@@ -109,41 +109,41 @@ Aᴅᴅᴇᴅ Bʏ - {}"""
 ID - <code>{}</code>
 Nᴀᴍᴇ - {}"""
 
-    ALRT_TXT = """🔆 Hey {}, Its Not For You❗"""
+    ALRT_TXT = """🔆 Iltimos {}, Teginmang❗"""
 
-    OLD_ALRT_TXT = """🔆 Hey {}, ❗Link Expired, Please Request Again ♻"""
+    OLD_ALRT_TXT = """🔆 Salom {}, ❗Ushbu link eskirgan iltimos tekshirib ko'ring. ♻"""
 
-    CUDNT_FND = """<b><i>⚠ Topilmadi! Iltimos Qo'llanma bo'yicha fodalaning!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://telegra.ph/Animax-Boti-02-01)</i></b>"""
+    CUDNT_FND = """<b><i>⚠ Topilmadi! Iltimos Qo'llanma bo'yicha fodalaning!</i></b> \n <b><i>♀ Qo'llanma › [Ustiga bosing](https://telegra.ph/BOTDAN-FOYDALANISH-UCHUN-QOLLANMA-09-02)</i></b>"""
 
-    I_CUDNT = """<b><i>⚠ Topilmadi! Iltimos Qo'llanma bo'yicha fodalaning!!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://telegra.ph/Animax-Boti-02-01)</i></b>"""
+    I_CUDNT = """<b><i>⚠ Topilmadi! Iltimos Qo'llanma bo'yicha fodalaning!!</i></b> \n <b><i>♀ Qo'llanma › [Ustiga bosing](https://telegra.ph/BOTDAN-FOYDALANISH-UCHUN-QOLLANMA-09-02)</i></b>"""
 
-    I_CUD_NT = """<b><i>⚠ Topilmadi! Iltimos Qo'llanma bo'yicha fodalaning!!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://telegra.ph/Animax-Boti-02-01)</i></b>"""
+    I_CUD_NT = """<b><i>⚠ Topilmadi! Iltimos Qo'llanma bo'yicha fodalaning!!</i></b> \n <b><i>♀ Qo'llanma › [Ustiga bosing](https://telegra.ph/BOTDAN-FOYDALANISH-UCHUN-QOLLANMA-09-02)</i></b>"""
 
-    MVE_NT_FND = """<b><i>⚠ Topilmadi! Iltimos Qo'llanma bo'yicha fodalaning!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://telegra.ph/Animax-Boti-02-01)</i></b>"""
+    MVE_NT_FND = """<b><i>⚠ Topilmadi! Iltimos Qo'llanma bo'yicha fodalaning!</i></b> \n <b><i>♀ Qo'llanma › [Ustiga bosing](https://telegra.ph/BOTDAN-FOYDALANISH-UCHUN-QOLLANMA-09-02)</i></b>"""
 
-    TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ 1 Million Dᴀᴛᴀʙᴀsᴇ..."""
+    TOP_ALRT_MSG = """Iltimos kutib turing. . ."""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+    MELCOW_ENG = """<b>Salom {}, {} ga xush kelibsiz! ❤️</b>"""
 
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : SOYIBJONOV
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/AnimaxRobot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : @Sultan_7010
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/sultan_7010'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
-Imlo xatolari Sana Vaqt va Imlo belgilariga e'tibor Qarating! Agar shunda ham Xatolik yuz bersa ushbu korinishda anime Buyurtma qiling!
+Imlo xatolari Sana Vaqt va Imlo belgilariga e'tibor Qarating! Agar shunda ham Xatolik yuz bersa ushbu korinishda kino Buyurtma qiling!
 ⊱⋅ ──────────────────── ⋅⊰
- #Request Naruto
+ #Request Avatar
 
 Adminlar 24 soatda ko'rib chiqishadi!"""
 
     MINFO = """
-⚠ Qanday Anime Buyurtma qilish ⁉️ »
+⚠ Qanday kino Buyurtma qilish ⁉️ »
 ⊱⋅ ─────────────── ⋅⊰
-› Naruto ✅
-› Naruto 2022 ✅
-› Naruto 2022 720p Uzbekcha ✅
+› Avatar ✅
+› Avatar 2022 ✅
+› Avatar 2022 720p Uzbekcha ✅
 
 › Animeni qisqartirib, Fontlar bilan, har-xil belgilar bilan, emojilar bilan yozmang! ❌
 """
@@ -151,9 +151,9 @@ Adminlar 24 soatda ko'rib chiqishadi!"""
     SINFO = """
 ⚠ How To Request Series ⁉️ »
 ⊱⋅ ─────────────── ⋅⊰
-› Naruto ✅
-› Naruto 2022 ✅
-› Naruto 2022 720p Uzbekcha ✅
+› Avatar ✅
+› Avatar 2022 ✅
+› Avatar 2022 720p Uzbekcha ✅
 
 › Animeni qisqartirib, Fontlar bilan, har-xil belgilar bilan, emojilar bilan yozmang! ❌
 """
@@ -161,12 +161,12 @@ Adminlar 24 soatda ko'rib chiqishadi!"""
     NORSLTS = """
 ★ #Auto_Request ★
 
-🔆 <b>Request</b> : 🎗️`{}`🎗️
-♦️ <b>Requested By : {}</b>
+🔆 <b>Kino buyurtma</b> : 🎗️`{}`🎗️
+♦️ <b>Buyurtmachi : {}</b>
 ♦️ <b>User ID</b> : `{}` """
 
     CAPTION = """
-<b>ɴᴀᴍᴇ: <code>{file_name}</code> \n\nKanalga obuna bo'ling: [⚡ Animax ⚡](https://t.me/Ani_maxUz)</b>"""
+<b>Nomi: <code>{file_name}</code> \n\nKanalga obuna bo'ling: [⚡ Tarjima Kinolar ⚡](https://t.me/Tarjima_Kinolar_Seriallar_Uzmovi)</b>"""
 
     IMDB_TEMPLATE_TXT = """<b><i>📟 ᴛɪᴛᴛʟᴇ :</b></i> {title} \n<b><i>🌟 ʀᴀᴛɪɴɢ :</b></i> {rating} \n<b><i>🎭 ɢᴇɴʀᴇ :</b></i> {genres} \n<b><i>📆 ʀᴇʟᴇᴀsᴇ :</b></i> {year} </b></i>\n<b><i>⏰ ᴅᴜʀᴀᴛɪᴏɴ :</b></i> {runtime}\n\n<b><i>🔖 𝓟𝓵𝓸𝓽  :</b></i> `{plot}` \n\n<b><i>⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⚡ :</b></i> {message.chat.title}"""
 
@@ -192,8 +192,8 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 • /plink - <code>Jᴜsᴛ ʟɪᴋᴇ /link, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇ ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴ.</code>"""
 
     RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+<b>Bᴏᴛ qayta ishga tushdi !
 
 📅 Dᴀᴛᴇ : <code>{}</code>
-⏰Tɪᴍᴇ : <code>{}</code>
-🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Delhi</code></b>"""
+⏰ Tɪᴍᴇ : <code>{}</code>
+🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Tashkent</code></b>"""
