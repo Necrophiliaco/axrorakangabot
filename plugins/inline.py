@@ -29,14 +29,14 @@ async def answer(bot, query):
         await query.answer(results=[],
                            cache_time=0,
                            switch_pm_text='Siz VIP ga obuna bolmagansiz',
-                           switch_pm_parameter="hehe")
+                           switch_pm_parameter="uzr")
         return
 
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
                            switch_pm_text='Siz Kanalga obuna bolmagansiz',
-                           switch_pm_parameter="subscribe")
+                           switch_pm_parameter="Kanalga qo'shilish")
         return
 
     results = []
@@ -107,7 +107,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('Search again', switch_inline_query_current_chat=query)
+            InlineKeyboardButton('Qayta izlash', switch_inline_query_current_chat=query)
         ]
         ]
     return InlineKeyboardMarkup(buttons)
